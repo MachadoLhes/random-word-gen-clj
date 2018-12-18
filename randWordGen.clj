@@ -10,7 +10,7 @@
 
 (defn random_word_syl_count []
 	"Generates pseudo-random number of syllables, between 2 and 5"
-	(random-int-range 2 5))
+	(random-int-range 2 4))
 
 (defn get_random_syllable []
 	"Get pseudo-random syllable from syllables array"
